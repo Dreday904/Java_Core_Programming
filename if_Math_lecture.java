@@ -140,7 +140,16 @@ public class Main {
 
         
         
-        
+        while(loop)
+
+           int countItems = 1;
+
+           //count is where it starts. 15 is where it stops.
+        //while count is less than 15, count up. 1+1=1
+           while (countItems <= 15){
+               System.out.println(countItems+ " Welcome to java");
+               countItems++;
+           }
         
         
         
