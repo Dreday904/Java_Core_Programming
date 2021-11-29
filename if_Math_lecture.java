@@ -15,6 +15,12 @@ public class Main {
         System.out.println(ran);
 
 
+          if(count == 20){
+            System.out.println("Yes");
+        }
+        else{
+            System.out.println("no");
+        }
 
     }
 }
