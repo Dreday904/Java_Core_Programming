@@ -84,6 +84,20 @@ public class Main {
         
         
         
+        
+        int num = 30;
+
+        if(num % 2 == 0 && num > 25){
+            System.out.println("Even and greater than 25");
+        }else if(num % 2 == 0 && num < 15){
+            System.out.println("Even and less than 15");
+        }else {
+            System.out.println("Error...");
+        }
+        
+        
+        
+        
 
     }
 }
