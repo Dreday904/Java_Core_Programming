@@ -131,6 +131,19 @@ public class Main {
         System.out.println(result);
         
         
+         for(loop)
+
+        System.out.println("Welcome to java");
+        System.out.println("Welcome to java");
+        System.out.println("Welcome to java");
+        System.out.println("Welcome to java");
+
+        
+        
+        
+        
+        
+        
 
     }
 }
