@@ -64,6 +64,26 @@ public class Main {
         
         
         
+          String str = "Java";
+
+        String start = str.substring(0,8);
+        System.out.println(start);
+
+
+        from index is what area it's from
+        System.out.println(str.indexOf(1));
+        System.out.println(str.charAt(3));
+
+
+        if(str.toUpperCase(Locale.ROOT)== ("JAVA")){
+            System.out.println("Yes");
+        }
+        else{
+            System.out.println("No");
+        }
+        
+        
+        
 
     }
 }
