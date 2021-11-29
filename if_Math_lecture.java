@@ -111,6 +111,26 @@ public class Main {
             System.out.println("C");
         }
         
+        
+        
+         String result = null;
+        String days = null;
+
+        //Takes a parameter Like "score". Branch statement/case.
+        switch(days = "MONDAY"){
+            case "MONDAY": result = "start of Work week";
+                break;
+            case "TUESDAY": result = "Work";
+                break;
+            case "WEDNESDAY": result = "Work";
+                break;
+            default:
+
+                result = "weekend";
+        }
+        System.out.println(result);
+        
+        
 
     }
 }
