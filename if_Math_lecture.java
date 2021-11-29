@@ -53,7 +53,14 @@ public class Main {
         
         
         
-        
+         Scanner userInput = new Scanner(System.in);
+        System.out.println("What's your first name? ");
+        String firstName = userInput.nextLine();
+        System.out.println("What's your last name?");
+        String lastName = userInput.nextLine();
+        System.out.println("How old are you?");
+        int age = userInput.nextInt();
+
         
         
         
