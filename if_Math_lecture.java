@@ -98,6 +98,19 @@ public class Main {
         
         
         
+        
+         int score = 86;
+
+        if(score >= 90){
+            System.out.println("A");
+        } else if(score >= 85 && score <= 89) {
+            System.out.println("B+");
+        }else if (score >= 80 && score < 85) {
+            System.out.println("B");
+        }else if (score <= 70){
+            System.out.println("C");
+        }
+        
 
     }
 }
