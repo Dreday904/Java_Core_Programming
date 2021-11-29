@@ -21,6 +21,18 @@ public class Main {
         else{
             System.out.println("no");
         }
+        
+        
+        
+         int age = 17;
+
+//        if age < 21
+        if(age >= 21){
+            System.out.println("You can enter");
+        }
+        else{
+            System.out.println("You can't enter");
+        }
 
     }
 }
