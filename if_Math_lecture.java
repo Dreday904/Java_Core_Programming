@@ -22,8 +22,7 @@ public class Main {
             System.out.println("no");
         }
         
-        
-        
+       
          int age = 17;
 
 //        if age < 21
@@ -33,6 +32,31 @@ public class Main {
         else{
             System.out.println("You can't enter");
         } 
+        
+        
+        
+        
+        
+        String str = new String();
+        String str="hello";
+        String str2=" to all    ";
+        str.length();
+        System.out.println(str.length());
+        System.out.println(str.charAt(3));
+        str + str2
+        System.out.println(str.concat(str2));
+
+        System.out.println(str.toUpperCase(Locale.ROOT));
+        System.out.println(str.toLowerCase(Locale.ROOT));
+        System.out.println(str2.trim());
+
+        
+        
+        
+        
+        
+        
+        
 
     }
 }
