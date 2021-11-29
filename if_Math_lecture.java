@@ -32,7 +32,7 @@ public class Main {
         }
         else{
             System.out.println("You can't enter");
-        }
+        } 
 
     }
 }
