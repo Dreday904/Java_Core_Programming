@@ -18,3 +18,19 @@ dataType[] nameOfArr = new dataType[];
         myList[3] = 8;
 
         System.out.println(myList[0]);
+
+
+
+   for(int i = 0; i < myList.length; i++);{
+//////            double printArr = myList[i];
+////            System.out.println(myList[]);
+////        }
+//
+////        int [] deckCards = new int [52];
+//        int  [] deckCards;
+////        System.out.println(deckCards[2]);
+//        deckCards[0] = 1;
+//        for(int i = 1; i < deckCards.length; i++){
+//            deckCards[i] = i;
+//            System.out.println(i);
+//        }
