@@ -153,6 +153,42 @@ public class Main {
         
         
         
+        while(otherNum < 20){
+            otherNum++;
+            //adding it to sum
+            sum+= otherNum;
+
+            if (sum >= 100) {
+                break;
+            }
+
+        
+            
+            
+            
+            
+            int sum = 0;
+        int otherNum = 0;
+//
+        while(otherNum < 20){
+            otherNum++;
+
+            if (otherNum == 10 || otherNum == 11) {
+                continue;
+            }
+                sum += otherNum;
+
+
+
+            System.out.println("the number is: "+ otherNum);
+            System.out.println("the sum is: "+ sum);
+
+            
+            
+            
+        
+        
+        
 
     }
 }
