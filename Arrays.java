@@ -34,3 +34,36 @@ dataType[] nameOfArr = new dataType[];
 //            deckCards[i] = i;
 //            System.out.println(i);
 //        }
+           
+           
+             //2D Arrays
+//        int [][] values = new int [0][0];
+//        int nRows = values.length;
+//        int nColumns = values.length;
+//        for(int row = 0; row < nRows; row++){
+//            for (int col = 0; col < nColumns; col++);{
+//                int v = values[row][col];
+//                System.out.println(v);
+//            }
+//        }
+        //This is the same as the bottom
+        int[] source = {1,2,3,4,5};
+        int[]targetArr = new int [source.length];
+
+        for(int i =0; i < source.length; i++){
+            targetArr[i] = source[i];
+            System.out.println(targetArr[i]);
+        }
+
+
+
+
+        int[] vals = {1,2,3,4,5};
+        int[] copy = vals.clone();
+        System.out.println(Arrays.toString(copy));
+
+
+           
+           
+           
+           
