@@ -3,6 +3,8 @@ import java.util.*;
 public class Solution {
 
     public static void main(String[] args) {
+     //1.
+        
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
         int b = scan.nextInt();
@@ -15,3 +17,9 @@ public class Solution {
         // Complete this line
     }
 }
+
+
+
+
+//2. 
+        
